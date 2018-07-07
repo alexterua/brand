@@ -237,9 +237,19 @@ input[type="radio"].visually-hidden {
     color: #f16d7f;
 }
 
+.main-content__title {
+    text-align: center;    
+    text-align: center;
+    font-family: "LatoBold", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 60px; /*поменять это h1*/
+    line-height: 25px;
+    color: #222222;
+}
+
 .categories {
     min-height: 823px;
-    margin-bottom: 100px;   
+    margin-bottom: 100px;  
 }
 
 .category {
@@ -253,7 +263,6 @@ input[type="radio"].visually-hidden {
 .category__item {
     width: 555px;
     margin-right: 30px;
-    /*margin-bottom: 20px;*/
 }
 
 .category__item:nth-child(2n) {
@@ -314,4 +323,120 @@ input[type="radio"].visually-hidden {
 
 .category__ad-4 {
     width: 180px;
+}
+
+.section-title {
+    text-align: center;
+    font-family: "LatoBold", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 25px;
+    color: #222222;
+
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.section-title__first-letter--upper {
+    text-transform: uppercase;
+}
+
+.products {
+    margin-bottom: 114px;
+}
+
+.products__announcement {
+    text-align: center;
+    font-family: "LatoRegular", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    color: #9f9f9f;
+
+    margin-bottom: 58px;
+}
+
+
+.product__list {
+    width: 1140px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.product__item {
+    height: 364px;
+    margin-right: 30px;  
+    margin-bottom: 39px;
+    
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);      
+}
+
+.product__item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.product__pic {
+    width: 261px;
+    height: 280px;    
+}
+
+.product__pic:hover {
+    cursor: pointer;
+}
+
+.product__link {
+    display: block;
+    box-sizing: border-box;
+
+    font-family: "LatoRegular", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #222222;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+    padding-left: 16px;
+}
+
+.product__price {
+    font-family: "LatoBold", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 0;
+    color: #f16d7f;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 16px;
+}
+
+.product__button {
+    position: relative;
+    display: block;
+    width: 212px;
+    height: 48px;
+    padding: 0 44px 0 26px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 54px;
+    color: #fff;
+    margin: 0 auto;
+    
+}
+
+.product__button:after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 7px;
+    top: 50%;
+    right: 26px;
+
+    background-image: url('/img/decor/arrow-right.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
