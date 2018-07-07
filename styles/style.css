@@ -8,8 +8,9 @@ html {
 
 body {
     margin: 0;
-    font-family: "LatoRegular", serif;
+    font-family: "LatoRegular", "Arial", sans-serif;
     font-size: 14px;
+    line-height: 54px;
 }
 
 img {
@@ -44,4 +45,126 @@ input[type="radio"].visually-hidden {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.container {
+    width: 1140px;
+    min-height: 100px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.flex-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "LatoLight", "Arial", sans-serif;
+    font-size: 27px;
+    line-height: 32px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.logo__pic {
+    width: 59px;
+    height: 51px;
+    margin-right: 13px;
+}
+
+.logo__last-letter {
+    font-weight: 700;
+    color: #f16d7f;    
+}
+
+.search-block {
+    display: flex;
+}
+
+.dropdown {
+    position: relative;
+    width: 87px;
+    height: 38px;
+    border: 1px solid #cdcdcc;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    background-color: #f8f8f8;   
+}
+
+.dropdown::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    top: 15px;
+    right: 5px;
+    border: 5px solid transparent;
+    border-top: 5px solid #838383;
+}
+
+.search {
+    width: 317px;
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #cdcdcc;
+    border-bottom: 1px solid #cdcdcc;
+}
+
+.search::placeholder {
+    padding: 0 17px;
+}
+
+.search__button {
+    width: 38px;
+    height: 38px;    
+    background-image: url('/img/search/search.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #cdcdcc;
+}
+
+.user {
+    display: flex;
+}
+
+.user__cart {
+    display: block;
+    width: 41px;
+    height: 37px;
+    background-image: url('/img/cart/cart.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.button {
+    position: relative;
+    width: 130px;
+    height: 38px;
+    border: none;
+    color: #fff;
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    top: 15px;
+    right: 11px;
+    border: 5px solid transparent;
+    border-top: 5px solid #fff;
+}
+
+.button--pink {
+    background-color: #f16d7f;
+}
+
+.user__account {
+    margin-left: 26px;
 }
