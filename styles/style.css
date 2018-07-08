@@ -833,10 +833,81 @@ input[type="radio"].visually-hidden {
 
 .copyright {
     margin: 0;
-    padding-top: 22px;
+    padding-top: 5px;
 
     font-family: "LatoRegular", "Arial", sans-serif;
     font-size: 16px;
     line-height: 42px;
     color: #7a7a7a;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+}
+
+.socials__item {
+    margin-left: 8px;
+    background-color: #fff;
+}
+
+.socials__item:hover {
+    background-color: #ccc;
+}
+
+.socials__link {
+    display: block;
+    width: 32px;
+    height: 32px;    
+}
+
+.icon__fb {
+    background-image: url('/img/socials/fb.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 30%;
+}
+
+.icon__tw {
+    background-image: url('/img/socials/tw.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 50%;
+
+    background-color: #f16d7f;
+}
+
+.icon__tw:hover {
+    background-color: #c05664;
+}
+
+.icon__in {
+    background-image: url('/img/socials/in.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 40%;
+}
+
+.icon__pinterest {
+    background-image: url('/img/socials/pint.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 40%;
+}
+
+.icon__google {
+    background-image: url('/img/socials/google.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 60%;
+}
+
+.container-footer {
+    width: 1140px;    
+    padding: 0 15px;
+    margin: 0 auto;
+    min-height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
