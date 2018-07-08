@@ -603,12 +603,28 @@ input[type="radio"].visually-hidden {
 }
 
 .review__text {
+    position: relative;
     padding-bottom: 22px;
 
     font-family: "LatoItalic", "Arial", sans-serif;
     font-size: 16px;
     line-height: 26px;
     color: #222224;
+}
+
+.review__text::before {
+    content: "";
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: 0px;
+    left: -104px;
+    border-radius: 50%;
+
+    background-image: url('/img/subscribe/subscribe-1.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .review__author {
@@ -702,4 +718,111 @@ input[type="radio"].visually-hidden {
     outline: none;
     border: none;
     cursor: pointer;
+}
+
+
+.footer-top {
+    height: 350px;
+}
+
+.about__content {
+    width: 458px;
+
+    font-family: "LatoLight", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #898989;
+}
+
+.company {
+    width: 166px;
+    margin-left: 30px;
+}
+
+.company__title {
+    font-family: "LatoBold", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #f16d7f;
+    text-transform: uppercase;
+}
+
+.company__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.company__link {
+    font-family: "LatoRegular", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 59px;
+    color: #898989;
+}
+
+.info {
+    width: 195px;
+    margin-left: 30px;
+}
+
+.info__title {
+    font-family: "LatoBold", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #f16d7f;
+    text-transform: uppercase;
+}
+
+.info__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.info__link {
+    font-family: "LatoRegular", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 59px;
+    color: #898989;
+}
+
+.shop-category {
+    width: 195px;
+    margin-left: 67px;
+}
+
+.shop-category__title {
+    font-family: "LatoBold", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #f16d7f;
+    text-transform: uppercase;
+}
+
+.shop-category__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.shop-category__link {
+    font-family: "LatoRegular", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 59px;
+    color: #898989;
+}
+
+.footer-bottom {
+    height: 78px;
+    background-color: #e6e6e6;
+}
+
+.copyright {
+    margin: 0;
+    padding-top: 22px;
+
+    font-family: "LatoRegular", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 42px;
+    color: #7a7a7a;
 }
