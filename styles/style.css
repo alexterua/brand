@@ -1000,11 +1000,11 @@ input[type="radio"].visually-hidden {
     border-bottom: 10px solid #fff;
 }
 
-.dropdown__category p {
+.dropdown-category p {
     margin: 0;
 }
 
-.category__name {
+.dropdown-category__name {
     display: block;
     width: 236px;
     margin: 10px 15px 0 15px;
