@@ -207,10 +207,9 @@ input[type="radio"].visually-hidden {
 }
 
 .main-nav__item {
-    min-width: 75px;
+    min-width: 33px;
     height: 51px;
     text-align: center;
-    margin-right: 15px;
 }
 
 .main-nav__item:hover,
@@ -221,6 +220,8 @@ input[type="radio"].visually-hidden {
 
 .main-nav__link {
     display: block;
+    min-width: 33px;
+    padding: 0 22px;
 
     text-decoration: none;
     font-family: "LatoBold", "Arial", sans-serif;
