@@ -1,0 +1,44 @@
+.review p {
+    margin: 0;
+}
+
+.review__text {
+    position: relative;
+    padding-bottom: 22px;
+
+    font-family: "LatoItalic", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #222224;
+}
+
+.review__text::before {
+    content: "";
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: 0px;
+    left: -104px;
+    border-radius: 50%;
+
+    background-image: url('/assets/img/subscribe/subscribe-1.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.review__author {
+    font-family: "LatoBold", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #f16d7f;
+}
+
+.review__geolocation {
+    font-family: "LatoLight", "Arial", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #222224;
+    padding-bottom: 42px;
+}

@@ -1,0 +1,120 @@
+.features {
+    margin-bottom: 97px;
+}
+
+.features__offer {
+    position: relative;
+    width: 765px;
+    height: 529px;
+}
+
+.features__pic {    
+    width: 765px;
+    height: 529px;
+}
+
+.features__subtitle {
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    top: 143px;
+    left: 39px;
+
+    font-family: "LatoBold", "Arial", sans-serif;
+    font-weight: 700;
+    
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.features__subtitle p {
+    margin: 0;
+    font-size: 54px;
+}
+
+.features__subtitle p:last-child {
+    margin-top: -10px;
+    font-size: 32px;
+}
+
+.features__subtitle--pink {
+    color: #f16d7f;
+}
+
+.features__list {
+    width: 375px;
+    height: 529px;
+
+    background-color: #000000;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;    
+    padding-left: 111px;
+}
+
+.features__title {
+    position: relative;
+    display: block;
+    width: 236px;
+    height: 20px;
+    font-family: "LatoBold", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    margin-top: 54px;
+    margin-bottom: 20px;
+}
+
+.features__delivery::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 32px;
+    top: 10px;
+    left: -75px;
+
+    background-image: url('/assets/img/feature/feature-car.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.features__discounts::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: -75px;
+
+    background-image: url('/assets/img/feature/feature-discount.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.features__quality::before {
+    content: "";
+    position: absolute;
+    width: 47px;
+    height: 35px;
+    top: 10px;
+    left: -75px;
+
+    background-image: url('/assets/img/feature/feature-quality.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.features__description {
+    width: 236px;
+
+    font-family: "LatoLight", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin: 0;
+}

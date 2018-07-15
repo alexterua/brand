@@ -1,0 +1,19 @@
+.socials {
+    list-style: none;
+    display: flex;
+}
+
+.socials__item {
+    margin-left: 8px;
+    background-color: #fff;
+}
+
+.socials__item:hover {
+    background-color: #ccc;
+}
+
+.socials__link {
+    display: block;
+    width: 32px;
+    height: 32px;    
+}

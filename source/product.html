@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home page</title>
-    <link rel="stylesheet" href="styles/fontawesome.css">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="styles/fonts.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/foundation.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <script src="/assets/js/foundation.js" defer></script>
+    <script src="/assets/js/app.js" defer></script>
 </head>
 <body>
 
     <header class="header">
         <div class="container flex-block">
             <a class="logo">
-                <img class="logo__pic" src="img/logo/logo.png" alt="Brand">
+                <img class="logo__pic" src="/assets/img/logo/logo.png" alt="Brand">
                 Bran<span class="logo__last-letter">d</span>
             </a>
             <div class="search-block">
@@ -117,49 +119,31 @@
             </ul>
         </div>
     </nav>
-    <section class="main-slider">
-        <div class="container">
-            <div class="slider__content">
-                <div class="slider__title">
-                    The brand
-                </div>
-                <div class="slider__description">
-                    Of luxerious <span class="slider__description--pink">fashion</span>
-                </div>
-            </div>
-        </div>
-    </section>
     <main class="main-content">
         <h1 class="main-content__title visually-hidden">Shop Brand</h1>
-        <section class="categories container">
-            <h2 class="section-title visually-hidden">Categories</h2>
-            <ul class="category">
-                <li class="category__item">
-                    <a class="category__link" href="#">
-                        <img class="category__pic" src="/img/categories/category-1.jpg" alt="For men">
-                        <div class="category__title">Hot deal<br><span class="category__name category__ad-1">For men</span></div>
-                    </a>
-                </li>
-                <li class="category__item">
-                    <a class="category__link" href="#">
-                        <img class="category__pic" src="/img/categories/category-2.jpg" alt="For women">
-                        <div class="category__title category__ad-2">30% offer<br><span class="category__name">Women</span></div>
-                    </a>
-                </li>
-                <li class="category__item">
-                    <a class="category__link" href="#">
-                        <img class="category__pic" src="/img/categories/category-3.jpg" alt="For accesories">
-                        <div class="category__title category__ad-3">Luxirous &amp; trendy<br><span class="category__name">Accesories</span></div>
-                    </a>
-                </li>
-                <li class="category__item">
-                    <a class="category__link" href="#">
-                        <img class="category__pic" src="/img/categories/category-4.jpg" alt="For kids">
-                        <div class="category__title category__ad-4">New arrivals<br><span class="category__name">For kids</span></div>
-                    </a>
-                </li>
-            </ul>
+        <section class="breadcrumbs">
+            <div class="container flex-block">
+                <h2 class="breadcrumbs__title">New Arrivals </h2>
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__item">
+                        <a href="index.html" class="breadcrumbs__link">Home</a>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        <a href="#" class="breadcrumbs__link">Men</a>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        <a href="#" class="breadcrumbs__link">New Arrivals</a>
+                    </li>
+                </ul>
+            </div>            
         </section>
+        <div class="wrapper-content">
+            <section class="navbar">
+                <select class="navbar__select-category" name="category" id="category">
+                    <option value="Category"></option>
+                </select>
+            </section>
+        </div>
         <section class="products">
             <div class="container">
                 <h2 class="section-title">Fetured <span class="section-title__first-letter--upper">i</span>tems</h2>
@@ -170,7 +154,7 @@
                     <li class="product__item">
                         <p>
                             <a href="#">
-                                <img src="/img/products/product-1.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/product-1.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -186,7 +170,7 @@
                     <li class="product__item">
                         <p>
                             <a href="#">
-                                <img src="/img/products/product-2.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/product-2.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -202,7 +186,7 @@
                     <li class="product__item">
                         <p>
                             <a href="#">
-                                <img src="/img/products/product-3.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/product-3.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -218,7 +202,7 @@
                     <li class="product__item">
                         <p>
                             <a href="#">
-                                <img src="/img/products/product-4.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/product-4.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -234,7 +218,7 @@
                     <li class="product__item">
                         <p>
                             <a href="#">
-                                <img src="/img/products/product-5.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/product-5.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -250,7 +234,7 @@
                     <li class="product__item">
                         <p>
                             <a href="#">
-                                <img src="/img/products/product-6.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/product-6.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -266,7 +250,7 @@
                     <li class="product__item">
                         <p>
                             <a href="#">
-                                <img src="/img/products/product-7.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/product-7.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -282,7 +266,7 @@
                     <li class="product__item">
                         <p>
                             <a href="#">
-                                <img src="/img/products/product-8.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/product-8.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -302,7 +286,7 @@
         <section class="features">
             <div class="container flex-block">
                 <div class="features__offer">
-                    <img class="features__pic" src="/img/feature/feature.jpg" alt="30% offer for women">
+                    <img class="features__pic" src="/assets/img/feature/feature.jpg" alt="30% offer for women">
                     <div class="features__subtitle">
                         <p>30% <span class="features__subtitle--pink">offer</span></p>
                         <p>for women</p>
@@ -370,7 +354,7 @@
             <div class="container flex-block">
                 <div class="about">
                     <a class="logo">
-                        <img class="logo__pic" src="img/logo/logo.png" alt="Brand">
+                        <img class="logo__pic" src="/assets/img/logo/logo.png" alt="Brand">
                         Bran<span class="logo__last-letter">d</span>
                     </a>
                     <p class="about__content"> Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
@@ -466,10 +450,6 @@
             </div>
         </div>
     </footer>
-
-    
-
-    <script src="js/main.js"></script> 
 
 </body>
 </html>

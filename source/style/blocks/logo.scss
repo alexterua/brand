@@ -1,0 +1,19 @@
+.logo {
+    font-family: "LatoLight", "Arial", sans-serif;
+    font-size: 27px;
+    line-height: 32px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.logo__pic {
+    width: 59px;
+    height: 51px;
+    margin-right: 13px;
+}
+
+.logo__last-letter {
+    font-weight: 700;
+    color: #f16d7f;    
+}

@@ -1,0 +1,25 @@
+.shop-category {
+    width: 195px;
+    margin-left: 67px;
+}
+
+.shop-category__title {
+    font-family: "LatoBold", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #f16d7f;
+    text-transform: uppercase;
+}
+
+.shop-category__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.shop-category__link {
+    font-family: "LatoRegular", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 59px;
+    color: #898989;
+}

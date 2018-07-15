@@ -1,0 +1,27 @@
+.button {
+    position: relative;
+    width: 130px;
+    height: 38px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    top: 15px;
+    right: 11px;
+    border: 5px solid transparent;
+    border-top: 5px solid #fff;
+}
+
+.button--pink {
+    background-color: #f16d7f;
+}
+
+.button--pink:hover {
+    background-color: #ec4b61;
+}

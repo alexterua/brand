@@ -1,0 +1,16 @@
+.user {
+    display: flex;
+}
+
+.user__cart {
+    display: block;
+    width: 41px;
+    height: 37px;
+    background-image: url('/assets/img/cart/cart.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.user__account {
+    margin-left: 26px;
+}
