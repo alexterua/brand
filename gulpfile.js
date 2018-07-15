@@ -29,7 +29,8 @@ $.gulp.task('default', $.gulp.series(
     'copy:image',
     'copy:font',
     'copy:html',
-    'css:foundation'
+    'css:foundation',
+    'copy:favicon'
   ),
   $.gulp.parallel(
     'watch',
