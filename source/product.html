@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home page</title>
+    <title>Product page</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/foundation.css">
@@ -137,24 +137,53 @@
                 </ul>
             </div>            
         </section>
-        <div class="wrapper-content">
-            <section class="navbar">
-                <select class="navbar__select-category" name="category" id="category">
-                    <option value="Category"></option>
-                </select>
-            </section>
-        </div>
-        <section class="products">
-            <div class="container">
-                <h2 class="section-title">Fetured <span class="section-title__first-letter--upper">i</span>tems</h2>
+        <div class="wrapper-content container flex-block">
+            <aside class="navbar">
+                <ul class="navbar-select__list">
+                    <li class="navbar-select__item navbar-select__title"><a class="navbar-select__link navbar-select__link--selected" href="#">Category</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Accessories</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Bags</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Denim</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Hoodies &amp; Sweatshirts</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Jackets &amp; Coats</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Pants</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Polos</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Shirts</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Shoes</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Shorts</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Sweaters &amp; Knits</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">T-Shirts</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Tanks</a></li>
+                </ul>
+                <ul class="navbar-select__list navbar-select__title">
+                    <li class="navbar-select__item navbar-select__title"><a class="navbar-select__link navbar-select__link--selected" href="#">Brand</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Zara</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Calvin Klein</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Dolce &amp; Gabbana</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Giorgio Armani</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Dior</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Prada</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Versace</a></li>
+                </ul>
+                <ul class="navbar-select__list navbar-select__title">
+                    <li class="navbar-select__item navbar-select__title"><a class="navbar-select__link navbar-select__link--selected" href="#">Designer</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Стефано Пилати</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Фиби Файло</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Вика Газинская</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Том Браун</a></li>
+                    <li class="navbar-select__item"><a class="navbar-select__link" href="#">Стелла Маккартни</a></li>
+                </ul>
+            </aside>
+            <section class="products page-product">
+                <!--<h2 class="section-title">Fetured <span class="section-title__first-letter--upper">i</span>tems</h2>
                 <p class="products__announcement">
                     Shop for items based on what we featured in this week
-                </p>
-                <ul class="product__list">
-                    <li class="product__item">
+                </p>-->
+                <ul class="page-product__list">
+                    <li class="product__item page-product__item">
                         <p>
                             <a href="#">
-                                <img src="/assets/img/products/product-1.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/page-product-1.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -167,10 +196,10 @@
                             </span>
                         </a>
                     </li>
-                    <li class="product__item">
+                    <li class="product__item page-product__item">
                         <p>
                             <a href="#">
-                                <img src="/assets/img/products/product-2.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/page-product-2.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -183,10 +212,10 @@
                             </span>
                         </a>
                     </li>
-                    <li class="product__item">
+                    <li class="product__item page-product__item">
                         <p>
                             <a href="#">
-                                <img src="/assets/img/products/product-3.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/page-product-3.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -199,10 +228,10 @@
                             </span>
                         </a>
                     </li>
-                    <li class="product__item">
+                    <li class="product__item page-product__item">
                         <p>
                             <a href="#">
-                                <img src="/assets/img/products/product-4.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/page-product-4.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -215,10 +244,10 @@
                             </span>
                         </a>
                     </li>
-                    <li class="product__item">
+                    <li class="product__item page-product__item">
                         <p>
                             <a href="#">
-                                <img src="/assets/img/products/product-5.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/page-product-5.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -231,10 +260,10 @@
                             </span>
                         </a>
                     </li>
-                    <li class="product__item">
+                    <li class="product__item page-product__item">
                         <p>
                             <a href="#">
-                                <img src="/assets/img/products/product-6.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/page-product-6.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -247,10 +276,10 @@
                             </span>
                         </a>
                     </li>
-                    <li class="product__item">
+                    <li class="product__item page-product__item">
                         <p>
                             <a href="#">
-                                <img src="/assets/img/products/product-7.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/page-product-7.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -263,10 +292,26 @@
                             </span>
                         </a>
                     </li>
-                    <li class="product__item">
+                    <li class="product__item page-product__item">
                         <p>
                             <a href="#">
-                                <img src="/assets/img/products/product-8.jpg" alt="" class="product__pic">
+                                <img src="/assets/img/products/page-product-8.jpg" alt="" class="product__pic">
+                            </a>
+                        </p>
+                        <h3>
+                            <a href="#" class="product__link">Mango People T-shirt</a>
+                        </h3>
+                        <p class="product__price">$52.00</p>
+                        <a href="#" class="product--hover">
+                            <span class="product__add-to-cart">
+                                Add to Cart
+                            </span>
+                        </a>
+                    </li>
+                    <li class="product__item page-product__item">
+                        <p>
+                            <a href="#">
+                                <img src="/assets/img/products/page-product-9.jpg" alt="" class="product__pic">
                             </a>
                         </p>
                         <h3>
@@ -280,9 +325,21 @@
                         </a>
                     </li>
                 </ul>
-                <a href="#" class="product__button button--pink">Browse All Product</a>
-            </div>
-        </section>
+                <div class="pagination">
+                    <ul class="pagination__list">
+                        <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+                        <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+                        <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+                        <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+                        <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+                        <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+                        <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+                    </ul>
+                    <a href="#" class="page-product__button button--white-pink">View All</a>
+                </div>
+                
+            </section>
+        </div>        
         <section class="features">
             <div class="container flex-block">
                 <div class="features__offer">

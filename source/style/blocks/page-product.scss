@@ -1,0 +1,37 @@
+.page-product {
+    width: 847px;
+}
+
+.page-product__list {
+    width: 847px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.page-product__item:nth-child(5n) {
+    margin-left: 30px;
+}
+
+.page-product__item:nth-child(9n) {
+    margin-left: 30px;
+}
+
+.page-product__item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.page-product__button {
+    display: block;
+    width: 150px;
+    height: 44px;
+    cursor: pointer;
+
+    font-family: "LatoLight", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    color: #ef5b70;
+    text-align: center;
+    vertical-align: middle;
+}
