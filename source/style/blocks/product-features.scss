@@ -1,0 +1,94 @@
+.product-features {
+    background-color: #000;
+    min-height: 341px;
+
+    & .features__list {
+        width: 100%;
+        height: 341px;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    & .features__description {
+        width: 100%;
+    }
+
+    & .features__item {
+        width: 360px;
+        text-align: center;
+        margin-right: 30px;
+        padding-left: 24px;
+        padding-right: 24px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    & .features__title {
+        position: relative;
+        display: inline-block;
+        width: 236px;
+        height: 20px;
+        font-family: "LatoBold", "Arial", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: #fff;
+        margin: 0;
+    }
+
+    & .features__delivery::before {
+        content: "";
+        position: absolute;
+        width: 45px;
+        height: 32px;
+        top: -50px;
+        left: 87px;
+    
+        background-image: url('/assets/img/feature/feature-car.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+
+    & .features__discounts::before {
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: -50px;
+        left: 87px;
+    
+        background-image: url('/assets/img/feature/feature-discount.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+    
+    & .features__quality::before {
+        content: "";
+        position: absolute;
+        width: 47px;
+        height: 35px;
+        top: -50px;
+        left: 87px;
+    
+        background-image: url('/assets/img/feature/feature-quality.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+    
+    & .features__description {
+        width: 100%;
+    
+        font-family: "LatoLight", "Arial", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #fff;
+        margin: 0;
+    }
+}
